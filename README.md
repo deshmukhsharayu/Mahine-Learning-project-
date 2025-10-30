@@ -1,24 +1,25 @@
 Mobile Price Classification
-📘 Overview
+
+*📘 Overview
 
 This project aims to predict the price range of mobile phones based on various features such as battery power, RAM, screen size, etc.
 Using Machine Learning, we analyze the training dataset and build a model that can classify mobiles into different price categories.
 
-📂 Dataset Information
+*📂 Dataset Information
 
 We are using the Mobile Price Classification dataset available on Kaggle.
 
-Training Dataset:
+*Training Dataset:
 /kaggle/input/mobile-price-classification/train.csv
 Contains the features of mobile phones and their corresponding price ranges.
 
-Test Dataset:
+*Test Dataset:
 /kaggle/input/mobile-price-classification/test.csv
 Contains similar features but without price labels (used for predictions).
 
 Dataset Description
 
-train.csv columns:
+*train.csv columns:
 
 battery_power: Total energy a battery can store (mAh)
 
@@ -42,7 +43,7 @@ talk_time: Maximum time one battery charge will last
 
 price_range: Target variable (0 = low cost, 1 = medium cost, 2 = high cost, 3 = very high cost)
 
-Project Steps
+*Project Steps
 
 Import libraries and load datasets.
 
@@ -56,13 +57,13 @@ Evaluate performance using accuracy, precision, recall, and F1-score.
 
 Predict price range on test dataset.
 
-Output
+*Output
 
 Model accuracy score.
 
 Predicted price ranges for test data.
 
-💡 Tools & Libraries
+*💡 Tools & Libraries
 
 Python
 
@@ -74,5 +75,5 @@ Scikit-learn
 
 Matplotlib / Seaborn
 
-test.csv columns:
+*test.csv columns:
 Same as above, except price_range (no target column).
